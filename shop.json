@@ -1,0 +1,705 @@
+{
+    "data": [
+        {
+            "page": 1,
+            "alias": "1_1",
+            "name": "Application Form",
+            "hindi": "आवेदन प्रपत्र",
+            "type": "heading",
+            "is_mandatory": [],
+            "options": []
+        },
+        {
+            "page": 1,
+            "alias": "1_2",
+            "name": "Application Form(Part 1)",
+            "hindi": "आवेदन पत्र (भाग -1)",
+            "type": "subheading",
+            "is_mandatory": [],
+            "options": []
+        },
+        {
+            "page": 1,
+            "alias": "1_3",
+            "name": "Name of Applicant",
+            "hindi": "आवेदक का नाम",
+            "type": "text",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 1,
+            "alias": "1_4",
+            "name": "Name of Beneficiary",
+            "hindi": "लाभार्थी का नाम",
+            "type": "text",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 1,
+            "alias": "1_5",
+            "name": "Date of Application",
+            "hindi": "आवेदन की तारीख",
+            "type": "date",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 1,
+            "alias": "1_6",
+            "name": "Address of Applicant",
+            "hindi": "आवेदक का पता",
+            "type": "textarea",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 1,
+            "alias": "1_7",
+            "name": "Mobile No",
+            "hindi": "मोबाइल नंबर",
+            "type": "number",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 1,
+            "alias": "1_8",
+            "name": "E-mail",
+            "hindi": "ईमेल",
+            "type": "text",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 1,
+            "alias": "1_9",
+            "name": "Aadhar Card No.",
+            "hindi": "आधार कार्ड नंबर",
+            "type": "number",
+            "is_mandatory": [],
+            "options": []
+        },
+        {
+            "page": 2,
+            "alias": "2_10",
+            "name": "Place Of Event:",
+            "hindi": "आयोजन का स्थान",
+            "type": "subheading",
+            "is_mandatory": [],
+            "options": []
+        },
+        {
+            "page": 2,
+            "alias": "2_11",
+            "name": "District",
+            "hindi": "जिला",
+            "type": "sub-dropdown-parent",
+            "is_mandatory": "1",
+            "options": [
+                "Bastar",
+                "Bilaspur",
+                "Dhamtari",
+                "Durg",
+                "Korba",
+                "Korea",
+                "Raigarh",
+                "Raipur",
+                "Rajnandgaon",
+                "Sarguja"
+            ],
+            "hindi_options": [
+                "बस्तर",
+                "बिलासपुर",
+                "धमतरी",
+                "दुर्ग",
+                "कोरबा",
+                "कोरिया",
+                "रायगढ़",
+                "रायपुर",
+                "राजनांदगाव",
+                "सरगुजा"
+            ]
+        },
+        {
+            "page": 2,
+            "alias": "2_12",
+            "name": "Office Type",
+            "hindi": "कार्यालय का प्रकार",
+            "type": "text",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 2,
+            "alias": "2_13",
+            "name": "Corporation",
+            "hindi": "निगम",
+            "type": "subdropdown-value",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 2,
+            "alias": "2_14",
+            "name": "Zone",
+            "hindi": "क्षेत्र",
+            "type": "text",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 2,
+            "alias": "2_15",
+            "name": "Division",
+            "hindi": "डिवीजन",
+            "type": "text",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 2,
+            "alias": "2_16",
+            "name": "Ward",
+            "hindi": "बालक",
+            "type": "text",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 3,
+            "alias": "3_17",
+            "name": "Application Form(Part 2)",
+            "hindi": "आवेदन पत्र (भाग -2)",
+            "type": "subheading",
+            "is_mandatory": [],
+            "options": []
+        },
+        {
+            "page": 3,
+            "alias": "3_18",
+            "name": "Type of Application",
+            "hindi": "निवेदन पत्र के प्रकार",
+            "type": "dropdown",
+            "is_mandatory": "1",
+            "options": [
+                "New",
+                "Renew"
+            ],
+            "hindi_options": [
+                "नया",
+                "नवीकरण"
+            ]
+        },
+        {
+            "page": 3,
+            "alias": "3_19",
+            "name": "General Details",
+            "hindi": "समान्य विवरण",
+            "type": "subheading",
+            "is_mandatory": [],
+            "options": []
+        },
+        {
+            "page": 3,
+            "alias": "3_20",
+            "name": "Date of Establishment",
+            "hindi": "स्थापना की तिथि",
+            "type": "date",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 3,
+            "alias": "3_21",
+            "name": "Type of Establishment",
+            "hindi": "स्थापना का प्रकार",
+            "type": "dropdown",
+            "is_mandatory": "1",
+            "options": [
+                "Commercial Establishment",
+                "Hotel",
+                "Theatre",
+                "Shop"
+            ],
+            "hindi_options": [
+                "वाणिज्यिक प्रतिष्ठान",
+                "होटल/रेस्टोरेंट",
+                "सिनेमा",
+                "दुकान"
+            ]
+        },
+        {
+            "page": 3,
+            "alias": "3_22",
+            "name": "Name of Establishment",
+            "hindi": "संस्थान का नाम",
+            "type": "text",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 4,
+            "alias": "4_23",
+            "name": "Establishment Address",
+            "hindi": "स्थापना का पता",
+            "type": "subheading",
+            "is_mandatory": [],
+            "options": []
+        },
+        {
+            "page": 4,
+            "alias": "4_24",
+            "name": "Shop No",
+            "hindi": "दुकान संख्या",
+            "type": "number",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 4,
+            "alias": "4_25",
+            "name": "Property Id No",
+            "hindi": "संपत्ति आईडी संख्या",
+            "type": "text",
+            "is_mandatory": "0",
+            "options": []
+        },
+        {
+            "page": 4,
+            "alias": "4_26",
+            "name": "Address",
+            "hindi": "पता",
+            "type": "textarea",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 4,
+            "alias": "4_27",
+            "name": "PIN Code",
+            "hindi": "पिन कोड",
+            "type": "number",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 4,
+            "alias": "4_28",
+            "name": "Other Details",
+            "hindi": "अन्य विवरण",
+            "type": "text",
+            "is_mandatory": "0",
+            "options": []
+        },
+        {
+            "page": 5,
+            "alias": "5_29",
+            "name": "Nature of Business",
+            "hindi": "व्यवसाय का विवरण",
+            "type": "text",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 5,
+            "alias": "5_30",
+            "name": "Detail of Other Premises related to establishment like Godown or workshop or office etc.",
+            "hindi": "गोदाम या कार्यशाला या कार्यालय आदि जैसे स्थापना से संबंधित अन्य परिसरों का विवरण।",
+            "type": "text",
+            "is_mandatory": "0",
+            "options": []
+        },
+        {
+            "page": 5,
+            "alias": "5_31",
+            "name": "Name of Owner",
+            "hindi": "मालिक का नाम",
+            "type": "text",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 5,
+            "alias": "5_32",
+            "name": "Permanent Address(owner)",
+            "hindi": "स्थायी पता (मालिक)",
+            "type": "textarea",
+            "is_mandatory": "0",
+            "options": []
+        },
+        {
+            "page": 5,
+            "alias": "5_33",
+            "name": "Detail of person who will maintain accounts or other secret information",
+            "hindi": "खाते या अन्य गुप्त जानकारी रखने वाले व्यक्ति का विवरण",
+            "type": "text",
+            "is_mandatory": "0",
+            "options": []
+        },
+        {
+            "page": 5,
+            "alias": "5_34",
+            "name": "Owner Details ",
+            "hindi": "मालिक का विवरण",
+            "type": "text",
+            "is_mandatory": "0",
+            "options": []
+        },
+        {
+            "page": 5,
+            "alias": "5_35",
+            "name": "Name ",
+            "hindi": "नाम",
+            "type": "text",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 5,
+            "alias": "5_36",
+            "name": "Permanent Address",
+            "hindi": "स्थायी पता",
+            "type": "textarea",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 5,
+            "alias": "5_37",
+            "name": "Fathers name",
+            "hindi": "पिता का नाम ",
+            "type": "text",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 5,
+            "alias": "5_38",
+            "name": "Designation",
+            "hindi": "पद",
+            "type": "text",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 5,
+            "alias": "5_39",
+            "name": "Type of ownership",
+            "hindi": "स्वामित्व के प्रकार",
+            "type": "text",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 6,
+            "alias": "6_40",
+            "name": "Is Owners Family Member involved in Establishment",
+            "hindi": "क्या मालिक परिवार का सदस्य स्थापना में शामिल है",
+            "type": "dropdown",
+            "is_mandatory": "1",
+            "options": [
+                "Yes",
+                "No"
+            ],
+            "hindi_options": [
+                "हां",
+                "नहीं"
+            ]
+        },
+        {
+            "page": 6,
+            "alias": "6_41",
+            "name": "Details of Involved Family Member in ownership",
+            "hindi": "स्वामित्व में शामिल परिवार के सदस्य का विवरण",
+            "type": "subheading",
+            "is_mandatory": [],
+            "options": []
+        },
+        {
+            "page": 6,
+            "alias": "6_42",
+            "name": "Name",
+            "hindi": "नाम",
+            "type": "text",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 6,
+            "alias": "6_43",
+            "name": "Age",
+            "hindi": "उम्र",
+            "type": "number",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 6,
+            "alias": "6_44",
+            "name": "Gender",
+            "hindi": "लिंग",
+            "type": "dropdown",
+            "is_mandatory": "1",
+            "options": [
+                "Male",
+                "Female",
+                "Transgender"
+            ],
+            "hindi_options": [
+                "पुरुष",
+                " महिला",
+                " अन्य "
+            ]
+        },
+        {
+            "page": 6,
+            "alias": "6_45",
+            "name": "Relation with Owner",
+            "hindi": "मालिक के साथ संबंध",
+            "type": "dropdown",
+            "is_mandatory": "1",
+            "options": [
+                "Father",
+                "Mother",
+                "Husband",
+                "Wife",
+                "Self",
+                "Son",
+                "Daughter",
+                "Daughter-in-Law",
+                "Grand Son",
+                "Grand Daughter",
+                "Brother",
+                "Sister",
+                "Other"
+            ],
+            "hindi_options": [
+                "पिता",
+                "माता",
+                "पति",
+                "पत्नी",
+                "स्वयं",
+                "पुत्र",
+                "पुत्री",
+                "बहू",
+                "पौत्र",
+                "पौत्री",
+                "भाई",
+                "बहन",
+                "अन्य"
+            ]
+        },
+        {
+            "page": 7,
+            "alias": "7_46",
+            "name": "Details of the Employees",
+            "hindi": "कर्मचारियों का विवरण",
+            "type": "subheading",
+            "is_mandatory": [],
+            "options": []
+        },
+        {
+            "page": 7,
+            "alias": "7_47",
+            "name": "No of Male Employee",
+            "hindi": "पुरुष कर्मचारियों की संख्या",
+            "type": "number",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 7,
+            "alias": "7_48",
+            "name": "No of Female Employee",
+            "hindi": "महिला कर्मचारियों की संख्या",
+            "type": "number",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 7,
+            "alias": "7_49",
+            "name": "Total No of Employee",
+            "hindi": "कर्मचारियों की संख्या",
+            "type": "number",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 7,
+            "alias": "7_50",
+            "name": "Day of weekly off",
+            "hindi": "साप्ताहिक अवकाश का दिन",
+            "type": "dropdown",
+            "is_mandatory": "1",
+            "options": [
+                "Sunday",
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday"
+            ],
+            "hindi_options": [
+                "रविवार",
+                "सोमवार",
+                "मंगलवार",
+                "बुधवार",
+                "गुरुवार",
+                "शुक्रवार",
+                "शनिवार"
+            ]
+        },
+        {
+            "page": 2,
+            "alias": "2_51",
+            "name": "Bastar",
+            "hindi": "बस्तर",
+            "type": "subdropdown-options",
+            "is_mandatory": "1",
+            "options": [
+                "Jagdalpur Municipal Corporation"
+            ],
+            "hindi_options": [
+                "जगदलपुर नगर निगम"
+            ]
+        },
+        {
+            "page": 2,
+            "alias": "2_52",
+            "name": "Bilaspur",
+            "hindi": "बिलासपुर",
+            "type": "subdropdown-options",
+            "is_mandatory": "1",
+            "options": [
+                "Bilaspur Municipal Corporation"
+            ],
+            "hindi_options": [
+                "बिलासपुर नगर निगम"
+            ]
+        },
+        {
+            "page": 2,
+            "alias": "2_53",
+            "name": "Dhamtari",
+            "hindi": "धमतरी",
+            "type": "subdropdown-options",
+            "is_mandatory": "1",
+            "options": [
+                "Dhamtari Municipal Corporation"
+            ],
+            "hindi_options": [
+                "धमतरी नगर निगम"
+            ]
+        },
+        {
+            "page": 2,
+            "alias": "2_54",
+            "name": "Durg",
+            "hindi": "दुर्ग",
+            "type": "subdropdown-options",
+            "is_mandatory": "1",
+            "options": [
+                "Durg Municipal Corporation",
+                "Municipal Corporation Bhilai-Charoda",
+                "Bhilai Municipal Corporation",
+                "Risali Municipal Corporation"
+            ],
+            "hindi_options": [
+                "दुर्ग नगर निगम",
+                "नगर निगम भिलाई-चरौदा",
+                "भिलाई नगर निगम",
+                "रिसाली नगर निगम"
+            ]
+        },
+        {
+            "page": 2,
+            "alias": "2_55",
+            "name": "Korba",
+            "hindi": "कोरबा",
+            "type": "subdropdown-options",
+            "is_mandatory": "1",
+            "options": [
+                "Korba Municipal Corporation"
+            ],
+            "hindi_options": [
+                "कोरबा नगर निगम"
+            ]
+        },
+        {
+            "page": 2,
+            "alias": "2_56",
+            "name": "Korea",
+            "hindi": "कोरिया",
+            "type": "subdropdown-options",
+            "is_mandatory": "1",
+            "options": [
+                "Chirimiri Municipal Corporation"
+            ],
+            "hindi_options": [
+                "चिरिमिरी नगर निगम"
+            ]
+        },
+        {
+            "page": 2,
+            "alias": "2_57",
+            "name": "Raigarh",
+            "hindi": "रायगढ़",
+            "type": "subdropdown-options",
+            "is_mandatory": "1",
+            "options": [
+                "Raigarh Municipal Corporation"
+            ],
+            "hindi_options": [
+                "रायगढ़ नगर निगम"
+            ]
+        },
+        {
+            "page": 2,
+            "alias": "2_58",
+            "name": "Raipur",
+            "hindi": "रायपुर",
+            "type": "subdropdown-options",
+            "is_mandatory": "1",
+            "options": [
+                "Municipal Corporation Birgaon",
+                "Raipur Municipal Corporation"
+            ],
+            "hindi_options": [
+                "नगर निगम बिरगांव ",
+                "रायपुर नगर निगम"
+            ]
+        },
+        {
+            "page": 2,
+            "alias": "2_59",
+            "name": "Rajnandgaon",
+            "hindi": "राजनांदगाव",
+            "type": "subdropdown-options",
+            "is_mandatory": "1",
+            "options": [
+                "Rajnandgaon Municipal Corporation"
+            ],
+            "hindi_options": [
+                "राजनांदगांव नगर निगम"
+            ]
+        },
+        {
+            "page": 2,
+            "alias": "2_60",
+            "name": "Sarguja",
+            "hindi": "सरगुजा",
+            "type": "subdropdown-options",
+            "is_mandatory": "1",
+            "options": [
+                "Ambikapur Municipal Corporation"
+            ],
+            "hindi_options": [
+                "अंबिकापुर नगर निगम"
+            ]
+        }
+    ]
+}

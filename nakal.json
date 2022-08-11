@@ -1,0 +1,512 @@
+{
+    "data": [
+        {
+            "page": 1,
+            "alias": "1_1",
+            "name": "Application Form",
+            "hindi": "आवेदन प्रपत्र",
+            "type": "heading",
+            "is_mandatory": [],
+            "options": []
+        },
+        {
+            "page": 1,
+            "alias": "1_2",
+            "name": "Application Form ( Part 1 )",
+            "hindi": "आवेदन पत्र (भाग -1)",
+            "type": "subheading",
+            "is_mandatory": [],
+            "options": []
+        },
+        {
+            "page": 1,
+            "alias": "1_3",
+            "name": "Name of Applicant",
+            "hindi": "आवेदक का नाम",
+            "type": "text",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 1,
+            "alias": "1_4",
+            "name": "Name of Beneficiary",
+            "hindi": "लाभार्थी का नाम",
+            "type": "text",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 1,
+            "alias": "1_5",
+            "name": "Date of Application",
+            "hindi": "आवेदन की तारीख",
+            "type": "date",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 1,
+            "alias": "1_6",
+            "name": "Address of Applicant",
+            "hindi": "आवेदक का पता",
+            "type": "textarea",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 1,
+            "alias": "1_7",
+            "name": "Mobile Number",
+            "hindi": "मोबाइल नंबर",
+            "type": "number",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 1,
+            "alias": "1_8",
+            "name": "E-mail",
+            "hindi": "ईमेल",
+            "type": "text",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 1,
+            "alias": "1_9",
+            "name": "Aadhar Card Number",
+            "hindi": "आधार कार्ड नंबर",
+            "type": "number",
+            "is_mandatory": "0",
+            "options": []
+        },
+        {
+            "page": 2,
+            "alias": "2_10",
+            "name": "Place of Event",
+            "hindi": "आयोजन का स्थान",
+            "type": "subheading",
+            "is_mandatory": [],
+            "options": []
+        },
+        {
+            "page": 2,
+            "alias": "2_11",
+            "name": "District",
+            "hindi": "जिला",
+            "type": "sub-dropdown-parent",
+            "is_mandatory": "1",
+            "options": [
+                "Bastar",
+                "Bilaspur",
+                "Dhamtari",
+                "Durg",
+                "Korba",
+                "korea",
+                "Raigarh",
+                "Raipur",
+                "Rajnandgaon",
+                "Sarguja"
+            ],
+            "hindi_options": [
+                "बस्तर",
+                "बिलासपुर",
+                "धमतरी",
+                "दुर्ग",
+                "कोरबा",
+                "कोरिया",
+                "रायगढ़",
+                "रायपुर",
+                "राजनांदगाव",
+                "सरगुजा"
+            ]
+        },
+        {
+            "page": 2,
+            "alias": "2_12",
+            "name": "Office type",
+            "hindi": "कार्यालय का प्रकार",
+            "type": "dropdown",
+            "is_mandatory": "1",
+            "options": [
+                "Sub-district/Revenue Tehsil/Revenue Sub-Tehsil"
+            ],
+            "hindi_options": [
+                "उप-जिला/राजस्व तहसील/राजस्व उप-तहसील"
+            ]
+        },
+        {
+            "page": 2,
+            "alias": "2_13",
+            "name": "Sub-district Revenue Taluk/Tehsil",
+            "hindi": "उप-जिला राजस्व तालुक/तहसील",
+            "type": "sub-dropdown-value",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 2,
+            "alias": "2_14",
+            "name": "Revenue Village",
+            "hindi": "राजस्व गांव",
+            "type": "text",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 2,
+            "alias": "2_15",
+            "name": "Bastar",
+            "hindi": "बस्तर",
+            "type": "subdropdown-options",
+            "is_mandatory": "1",
+            "options": [
+                "Jagdalpur Tehsil",
+                "Bastar Tehsil",
+                "Tokapil Tehsil",
+                "Bastanar Tehsil",
+                "Darbha Tehsil",
+                "Bhanpuri Up Tehsil",
+                "Nangur Up Tehsil",
+                "Lohandiguda Tehsil",
+                "Karavand Tehsil"
+            ],
+            "hindi_options": [
+                "जगदलपुर तहसील",
+                "तोकापाल तहसील",
+                "दरभा तहसील",
+                "नानगुर उपतहसील",
+                "बकावंड तहसील",
+                "बस्तर तहसील",
+                "बास्तानार तहसील",
+                "भनपुरी उपतहसील",
+                "लोहंडीगुड़ा तहसील",
+                "करवंद तहसील"
+            ]
+        },
+        {
+            "page": 2,
+            "alias": "2_16",
+            "name": "Bilaspur",
+            "hindi": "बिलासपुर",
+            "type": "subdropdown-options",
+            "is_mandatory": "1",
+            "options": [
+                "Kota Tehsil",
+                "Beltara Up Tehsil",
+                "Ganiyari Up Tehsil",
+                "Masturi Tehsil",
+                "Takhatpur Tehsil",
+                "Ratanpur Tehsil",
+                "Bilaspur Tehsil",
+                "Sakri Tehsil",
+                "Bilha Tehsil",
+                "Seepat Up Tehsil"
+            ],
+            "hindi_options": [
+                "कोटा तहसील",
+                "गनियारी उपतहसील",
+                "तखतपुर तहसील",
+                "बिलासपुर तहसील",
+                "बिल्हा तहसील",
+                "बेलतरा उपतहसील",
+                "मस्तूरी तहसील",
+                "रतनपुर तहसील",
+                "सकरी तहसील",
+                "सीपत उपतहसील"
+            ]
+        },
+        {
+            "page": 2,
+            "alias": "2_17",
+            "name": "Dhamtari",
+            "hindi": "धमतरी",
+            "type": "subdropdown-options",
+            "is_mandatory": "1",
+            "options": [
+                "UpTehsil Kukrel",
+                "Kurud Tehsil",
+                "Dhamtari Tehsil",
+                "Nagri Tehsil",
+                "Bhakhara bhatheli Tehsil",
+                "Magarlod Tehsil"
+            ],
+            "hindi_options": [
+                "उपतहसील कुकरेल",
+                "कुरुद तहसील",
+                "धमतरी तहसील",
+                "नगरी तहसील",
+                "भखारा भठली तहसील",
+                "मगरलोड तहसील"
+            ]
+        },
+        {
+            "page": 2,
+            "alias": "2_18",
+            "name": "Durg",
+            "hindi": "दुर्ग",
+            "type": "subdropdown-options",
+            "is_mandatory": "1",
+            "options": [
+                "Durg Tehsil",
+                "Dhamdha Tehsil",
+                "Patan Tehsil",
+                "Bhilai 03 Tehsil",
+                "Bhilai Sub Tehsil"
+            ],
+            "hindi_options": [
+                "दुर्ग तहसील",
+                "धंधा तहसील",
+                "पतन तहसील",
+                "भिलाई 03 तहसील",
+                "भिलाई उपतेह्सिल"
+            ]
+        },
+        {
+            "page": 2,
+            "alias": "2_19",
+            "name": "Korba",
+            "hindi": "कोरबा",
+            "type": "subdropdown-options",
+            "is_mandatory": "1",
+            "options": [
+                "Ajgarbahar Tehsil",
+                "Katghora Tehsil",
+                "Kartala Tehsil",
+                "Korba Tehsil",
+                "Darri Tehsil",
+                "Dipka UpTehsil",
+                "Pasan UpTehsil",
+                "Pali Tehsil",
+                "Poudi-Uproda Tehsil",
+                "Barpali Tehsil",
+                "Bhaisma UpTehsil",
+                "Hardibazar Tehsil"
+            ],
+            "hindi_options": [
+                "अजगरबहार तहसील",
+                "कटघोरा तहसील",
+                "करतला तहसील",
+                "कोरबा तहसील",
+                "दर्री तहसील",
+                "दीपका उपतहसील",
+                "पसन् उपतहसील",
+                "पाली तहसील",
+                "पौड़ी-उपरोड़ा तहसील",
+                "बरपाली तहसील",
+                "भैसमे उपतहसील",
+                "हरदीबाजार तहसील"
+            ]
+        },
+        {
+            "page": 2,
+            "alias": "2_20",
+            "name": "Korea",
+            "hindi": "कोरिया",
+            "type": "subdropdown-options",
+            "is_mandatory": "1",
+            "options": [
+                "Sub Tehsil Kotadal",
+                "Sub Tehsil Patna",
+                "Kelhari Tehsil",
+                "Khadganva Tehsil",
+                "Chirimiri Tehsil",
+                "Baikunthpur Tehsil",
+                "Bharatpur Tehsil",
+                "Manendragarh Tehsil",
+                "Sonhat Tehsil"
+            ],
+            "hindi_options": [
+                "उपतहसील कोतदल",
+                "उपतहसील पटना",
+                "केल्हारी तहसील",
+                "खडग़ांव तहसील",
+                "चिरिमिरी तहसील",
+                "बैकुंठपुर तहसील",
+                "भरतपुर तहसील",
+                "मनेन्द्रगढ़ तहसील",
+                "सोनहत तहसील"
+            ]
+        },
+        {
+            "page": 2,
+            "alias": "2_21",
+            "name": "Raigarh",
+            "hindi": "रायगढ़",
+            "type": "subdropdown-options",
+            "is_mandatory": "1",
+            "options": [
+                "Kharsia Tehsil",
+                "Gharghoda Tehsil",
+                "Tamnar Tehsil",
+                "Dharamjaigarh(Udaipur) Tehsil",
+                "Pusour Tehsil",
+                "Baramkela Tehsil",
+                "Raigarh Tehsil",
+                "Lailunga Tehsil",
+                "Sarangarh Tehsil"
+            ],
+            "hindi_options": [
+                "खरसीअ तहसील",
+                "घरघोड़ा तहसील",
+                "तमनार तहसील",
+                "धरमजयगढ़( उदयपुर) तहसील",
+                "पुसौर तहसील",
+                "बरमकेला तहसील",
+                "रायगढ़ तहसील",
+                "लैलूंगा तहसील",
+                "सारंगढ़ तहसील"
+            ]
+        },
+        {
+            "page": 2,
+            "alias": "2_22",
+            "name": "Raipur",
+            "hindi": "रायपुर",
+            "type": "subdropdown-options",
+            "is_mandatory": "1",
+            "options": [
+                "Abhanpur Tehsil",
+                "Arang Tehsil",
+                "Sub Tehsil Dharsiwa",
+                "Sub Tehsil Navapara",
+                "Kharora Sub Tehsil",
+                "Tilda Tehsil",
+                "Mandir Hasaud Sub Tehsil",
+                "Raipur Tehsil"
+            ],
+            "hindi_options": [
+                "अभनपुर तहसील",
+                "आरंग तहसील",
+                "उप तहसील धरसींवा",
+                "उप तहसील नवापारा",
+                "खरोरा उप तहसील",
+                "तिल्दा तहसील",
+                "मंदिर हसौद उप तहसील",
+                "रायपुर तहसील"
+            ]
+        },
+        {
+            "page": 2,
+            "alias": "2_23",
+            "name": "Rajnandgaon",
+            "hindi": "राजनांदगाव",
+            "type": "subdropdown-options",
+            "is_mandatory": "1",
+            "options": [
+                "Ambagarh Chowki Tehsil",
+                "Khairagarh Tehsil",
+                "Gandai Tehsil",
+                "Chhuikhadan Tehsil",
+                "Chhuriya Tehsil",
+                "Dongargaon Tehsil",
+                "Dongargarh Tehsil",
+                "Manpur Tehsil",
+                "Mohla Tehsil",
+                "Rajnandgaon Tehsil"
+            ],
+            "hindi_options": [
+                "अम्बागढ़ चौकी तहसील",
+                "खैरागढ़ तहसील",
+                "गंदे तहसील",
+                "छुईखदान तहसील",
+                "छुरिया तहसील",
+                "डोंगरगाव तहसील",
+                "डोंगरगढ़ तहसील",
+                "मानपुर तहसील",
+                "मोहला तहसील",
+                "राजनांदगाव तहसील"
+            ]
+        },
+        {
+            "page": 2,
+            "alias": "2_24",
+            "name": "Sarguja",
+            "hindi": "सरगुजा",
+            "type": "heading",
+            "is_mandatory": "1",
+            "options": [
+                "Ambikapur",
+                "Ambikapur 2 Tehsil",
+                "Udaypur Tehsil",
+                "Udaipur 2",
+                "Darima Tehsil",
+                "Darima Tehsil-Sohga Circle",
+                "Batouli Tehsil",
+                "Batauli 2",
+                "Mainpat Tehsil",
+                "Lakhanpur Tehsil",
+                "Lakhanpur 2",
+                "Lundra Tehsil",
+                "Lundra(Dhourpur)",
+                "Sitapur Tehsil",
+                "Sitapur 2",
+                "Sitapur 3"
+            ],
+            "hindi_options": [
+                "अंबिकापुर",
+                "अंबिकापुर 2 तहसील",
+                "उदयपुर तहसील",
+                "उदयपुर 2",
+                "दरिमा तहसील",
+                "दरिमा तहसील-सोहगा सर्किल",
+                "बतौली तहसील",
+                "बतौली 2",
+                "मैनपाट तहसील",
+                "लखनपुर तहसील",
+                "लखनपुर 2",
+                "लुंड्रा तहसील",
+                "लुंड्रा(धौरपुर)",
+                "सीतापुर तहसील",
+                "सीतापुर 2",
+                "सीतापुर 3"
+            ]
+        },
+        {
+            "page": 3,
+            "alias": "3_25",
+            "name": "Application Form ( Part 2 )",
+            "hindi": "आवेदन पत्र (भाग -2)",
+            "type": "subheading",
+            "is_mandatory": "0",
+            "options": []
+        },
+        {
+            "page": 3,
+            "alias": "3_26",
+            "name": "Khasra Document Type",
+            "hindi": "खसरा प्रमाण पत्र ",
+            "type": "dropdown",
+            "is_mandatory": "1",
+            "options": [
+                "Khasra(P-11)",
+                "Khatauni(B-1)",
+                "Khatauni(B-1) and Khasra(P-11)"
+            ],
+            "hindi_options": [
+                "खसरा (P-11)",
+                "खसरा(B-1)",
+                "खसरा (B-1) और खसरा (P-11)"
+            ]
+        },
+        {
+            "page": 3,
+            "alias": "3_27",
+            "name": "Khasara Number",
+            "hinid": "खसरा नंबर",
+            "type": "number",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 3,
+            "alias": "3_28",
+            "name": "Details",
+            "hindi": " विवरण",
+            "type": "text",
+            "is_mandatory": "1",
+            "options": []
+        }
+    ]
+}

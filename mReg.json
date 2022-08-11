@@ -1,0 +1,775 @@
+{
+    "data": [
+        {
+            "page": 1,
+            "alias": "1_1",
+            "name": "Application Form Marriage Certificate",
+            "hindi": "आवेदन पत्र विवाह प्रमाणपत्र",
+            "type": "heading",
+            "is_mandatory": [],
+            "options": []
+        },
+        {
+            "page": 1,
+            "alias": "1_2",
+            "name": "Application Form(Part 1)",
+            "hindi": "आवेदन पत्र (भाग -1)",
+            "type": "subheading",
+            "is_mandatory": [],
+            "options": []
+        },
+        {
+            "page": 1,
+            "alias": "1_3",
+            "name": "Name of Applicant",
+            "hindi": "आवेदक का नाम",
+            "type": "text",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 1,
+            "alias": "1_4",
+            "name": "Name of Beneficiary",
+            "hindi": "लाभार्थी का नाम",
+            "type": "text",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 1,
+            "alias": "1_5",
+            "name": "Date of Application",
+            "hindi": "आवेदन की तारीख",
+            "type": "date",
+            "is_mandatory": "0",
+            "options": []
+        },
+        {
+            "page": 1,
+            "alias": "1_6",
+            "name": "Address of Applicant",
+            "hindi": "आवेदक का पता",
+            "type": "text",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 1,
+            "alias": "1_7",
+            "name": "Mobile No",
+            "hindi": "मोबाइल नंबर",
+            "type": "number",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 1,
+            "alias": "1_8",
+            "name": "E-mail",
+            "hindi": "ईमेल",
+            "type": "text",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 1,
+            "alias": "1_9",
+            "name": "Aadhar Card No",
+            "hindi": "आधार कार्ड नंबर",
+            "type": "number",
+            "is_mandatory": "0",
+            "options": []
+        },
+        {
+            "page": 2,
+            "alias": "2_10",
+            "name": "Place Of Event",
+            "hindi": "घटना का स्थान",
+            "type": "subheading",
+            "is_mandatory": [],
+            "options": []
+        },
+        {
+            "page": 2,
+            "alias": "2_11",
+            "name": "District",
+            "hindi": "जिला",
+            "type": "sub-dropdown-parent",
+            "is_mandatory": "1",
+            "options": [
+                "Bastar",
+                "Bilaspur",
+                "Dhamtari",
+                "Durg",
+                "Korba",
+                "Korea",
+                "Raigarh",
+                "Raipur",
+                "Rajnandgaon",
+                "Sarguja"
+            ],
+            "hindi_options": [
+                "बस्तर",
+                "बिलासपुर",
+                "धमतरी",
+                "दुर्ग",
+                "कोरबा",
+                "कोरिया",
+                "रायगढ़",
+                "रायपुर",
+                "राजनांदगाव",
+                "सरगुजा"
+            ]
+        },
+        {
+            "page": 2,
+            "alias": "2_12",
+            "name": "Office Type",
+            "hindi": "कार्यालय का प्रकार",
+            "type": "dropdown",
+            "is_mandatory": "1",
+            "options": [
+                "Corporation"
+            ],
+            "hindi_options": [
+                "निगम"
+            ]
+        },
+        {
+            "page": 2,
+            "alias": "2_13",
+            "name": "If Office Type is Corporation",
+            "hindi": "यदि कार्यालय का प्रकार निगम है",
+            "type": "subdropdown-value",
+            "is_mandatory": "0",
+            "options": []
+        },
+        {
+            "page": 3,
+            "alias": "3_14",
+            "name": "Application Form(Part 2)",
+            "hindi": "आवेदन पत्र (भाग -2)",
+            "type": "subheading",
+            "is_mandatory": [],
+            "options": []
+        },
+        {
+            "page": 3,
+            "alias": "3_15",
+            "name": "Marriage Details",
+            "hindi": "विवाह विवरण",
+            "type": "subheading",
+            "is_mandatory": [],
+            "options": []
+        },
+        {
+            "page": 3,
+            "alias": "3_16",
+            "name": "Date of Marriage",
+            "hindi": "शादी की तारीख",
+            "type": "date",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 3,
+            "alias": "3_17",
+            "name": "Place of Marriage",
+            "hindi": "विवाह - स्थल",
+            "type": "text",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 3,
+            "alias": "3_18",
+            "name": "Type of Marriage",
+            "hindi": "विवाह का प्रकार",
+            "type": "dropdown",
+            "is_mandatory": "1",
+            "options": [
+                "Hindu",
+                "Muslim",
+                "Christian",
+                "Aarya Samaj Gandharw",
+                "Other"
+            ],
+            "hindi_options": [
+                "हिन्दू",
+                "मुस्लिम",
+                "इसाई",
+                "आर्य समाज गन्धर्व",
+                "अन्य"
+            ]
+        },
+        {
+            "page": 3,
+            "alias": "3_19",
+            "name": "Is Marriage Registered",
+            "hindi": "क्या विवाह पंजीकृत है",
+            "type": "dropdown",
+            "is_mandatory": "1",
+            "options": [
+                "Yes",
+                "No"
+            ],
+            "hindi_options": [
+                "हां",
+                "नहीं"
+            ]
+        },
+        {
+            "page": 3,
+            "alias": "3_20",
+            "name": "Registration No",
+            "hindi": "पंजीकरण क्रमांक",
+            "type": "text",
+            "is_mandatory": "0",
+            "options": []
+        },
+        {
+            "page": 3,
+            "alias": "3_21",
+            "name": "Other Details",
+            "hindi": "अन्य विवरण",
+            "type": "text",
+            "is_mandatory": "0",
+            "options": []
+        },
+        {
+            "page": 4,
+            "alias": "4_22",
+            "name": "Groom Details",
+            "hindi": "दूल्हे का विवरण",
+            "type": "subheading",
+            "is_mandatory": [],
+            "options": []
+        },
+        {
+            "page": 4,
+            "alias": "4_23",
+            "name": "Name of Groom in Local Language",
+            "hindi": "स्थानीय भाषा में दूल्हे का नाम",
+            "type": "text",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 4,
+            "alias": "4_24",
+            "name": "Name of Groom in English",
+            "hindi": "दूल्हे का नाम अंग्रेजी में",
+            "type": "text",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 4,
+            "alias": "4_25",
+            "name": "Date of Birth of Groom",
+            "hindi": "दूल्हे की जन्म तिथि",
+            "type": "date",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 4,
+            "alias": "4_26",
+            "name": "Age at the time of Marriage",
+            "hindi": "शादी के समय उम्र",
+            "type": "number",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 4,
+            "alias": "4_27",
+            "name": "Father's Name in Local Language",
+            "hindi": "स्थानीय भाषा में पिता का नाम",
+            "type": "text",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 4,
+            "alias": "4_28",
+            "name": "Fathers Name in English",
+            "hindi": "पिता का नाम अंग्रेजी में",
+            "type": "text",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 4,
+            "alias": "4_29",
+            "name": "Marital Status or Groom",
+            "hindi": "वैवाहिक स्थिति या वर",
+            "type": "dropdown",
+            "is_mandatory": "1",
+            "options": [
+                "Un-Married",
+                "Currently Married",
+                "Widower",
+                "Divorced",
+                "Separated"
+            ],
+            "hindi_options": [
+                "अविवाहित",
+                "वर्तमान में विवाहित",
+                "विधवा ",
+                "तलाकशुदा",
+                "परित्यक्ता "
+            ]
+        },
+        {
+            "page": 5,
+            "alias": "5_30",
+            "name": "Address of the Groom",
+            "hindi": "दूल्हे का पता",
+            "type": "subheading",
+            "is_mandatory": [],
+            "options": []
+        },
+        {
+            "page": 5,
+            "alias": "5_31",
+            "name": "Present Address of Groom in Local Language",
+            "hindi": "स्थानीय भाषा में दूल्हे का वर्तमान पता",
+            "type": "textarea",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 5,
+            "alias": "5_32",
+            "name": "Present Address of Groom in English",
+            "hindi": "दूल्हे का वर्तमान पता अंग्रेजी में",
+            "type": "textarea",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 5,
+            "alias": "5_33",
+            "name": "Permanent Address of Groom in Local Language",
+            "hindi": "स्थानीय भाषा में दूल्हे का स्थायी पता",
+            "type": "textarea",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 5,
+            "alias": "5_34",
+            "name": "Permanent Address of Groom in English",
+            "hindi": "स्थायी पता या दूल्हा अंग्रेजी में",
+            "type": "textarea",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 6,
+            "alias": "6_35",
+            "name": "Witness Details of Groom Side",
+            "hindi": "दूल्हे पक्ष का गवाह विवरण",
+            "type": "subheading",
+            "is_mandatory": [],
+            "options": []
+        },
+        {
+            "page": 6,
+            "alias": "6_36",
+            "name": "Witness Name1",
+            "hindi": "गवाह का नाम",
+            "type": "text",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 6,
+            "alias": "6_37",
+            "name": "Witness Address",
+            "hindi": "गवाह का पता",
+            "type": "textarea",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 6,
+            "alias": "6_38",
+            "name": "Witness Relation to Groom",
+            "hindi": "दूल्हे से गवाह संबंध",
+            "type": "text",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 6,
+            "alias": "6_39",
+            "name": "Witness Name2",
+            "hindi": "गवाह का नाम",
+            "type": "text",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 6,
+            "alias": "6_40",
+            "name": "Witness Address",
+            "hindi": "गवाह का पता",
+            "type": "textarea",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 6,
+            "alias": "6_41",
+            "name": "Witness Relation to Groom",
+            "hindi": "दूल्हे से गवाह संबंध",
+            "type": "text",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 7,
+            "alias": "7_42",
+            "name": "Bride Details",
+            "hindi": "दुल्हन विवरण",
+            "type": "subheading",
+            "is_mandatory": [],
+            "options": []
+        },
+        {
+            "page": 7,
+            "alias": "7_43",
+            "name": "Name of Bride in Local Language",
+            "hindi": "स्थानीय भाषा में दुल्हन का नाम",
+            "type": "text",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 7,
+            "alias": "7_44",
+            "name": "Name of Bride in English",
+            "hindi": "दुल्हन का नाम अंग्रेजी में",
+            "type": "text",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 7,
+            "alias": "7_45",
+            "name": "Date of Birth of Bride",
+            "hindi": "दुल्हन विवरण",
+            "type": "date",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 7,
+            "alias": "7_46",
+            "name": "Age at the time of Marriage",
+            "hindi": "शादी के समय उम्र",
+            "type": "number",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 7,
+            "alias": "7_47",
+            "name": "Fathers Name in Local Language",
+            "hindi": "स्थानीय भाषा में पिता का नाम",
+            "type": "text",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 7,
+            "alias": "7_48",
+            "name": "Fathers Name In English",
+            "hindi": "अंग्रेजी में पिता का नाम",
+            "type": "text",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 7,
+            "alias": "7_49",
+            "name": "Marital Status of Bride",
+            "hindi": "दुल्हन की वैवाहिक स्थिति",
+            "type": "dropdown",
+            "is_mandatory": "1",
+            "options": [
+                "Un-Married",
+                "Currently Married",
+                "Widower",
+                "Divorced",
+                "Separated"
+            ],
+            "hindi_options": [
+                "अविवाहित",
+                "वर्तमान में विवाहित",
+                "विधवा ",
+                "तलाकशुदा",
+                "परित्यक्ता "
+            ]
+        },
+        {
+            "page": 8,
+            "alias": "8_50",
+            "name": "Address of the Bride",
+            "hindi": "दुल्हन का पता",
+            "type": "subheading",
+            "is_mandatory": [],
+            "options": []
+        },
+        {
+            "page": 8,
+            "alias": "8_51",
+            "name": "Present Address of Bride in Local Language",
+            "hindi": "स्थानीय भाषा में दुल्हन का वर्तमान पता",
+            "type": "textarea",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 8,
+            "alias": "8_52",
+            "name": "Present Address of Bride in English",
+            "hindi": "दुल्हन का वर्तमान पता अंग्रेजी में",
+            "type": "text",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 8,
+            "alias": "8_53",
+            "name": "Permanent Address of Bride in Local Language",
+            "hindi": "स्थानीय भाषा में दुल्हन का स्थायी पता",
+            "type": "textarea",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 8,
+            "alias": "8_54",
+            "name": "Permanent Address of Bride in English",
+            "hindi": "दुल्हन का स्थायी पता अंग्रेजी में",
+            "type": "textarea",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 9,
+            "alias": "9_55",
+            "name": "Witness Details of Bride Side",
+            "hindi": "दुल्हन पक्ष का गवाह विवरण",
+            "type": "subheading",
+            "is_mandatory": [],
+            "options": []
+        },
+        {
+            "page": 9,
+            "alias": "9_56",
+            "name": "Witness Name1",
+            "hindi": "गवाह का नाम",
+            "type": "text",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 9,
+            "alias": "9_57",
+            "name": "Witness Address",
+            "hindi": "गवाह का पता",
+            "type": "textarea",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 9,
+            "alias": "9_58",
+            "name": "Witness Relation to Bride",
+            "hindi": "दुल्हन के साथ गवाह संबंध",
+            "type": "text",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 9,
+            "alias": "9_59",
+            "name": "Witness Name2",
+            "hindi": "गवाह का नाम",
+            "type": "text",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 9,
+            "alias": "9_60",
+            "name": "Witness Address",
+            "hindi": "गवाह का पता",
+            "type": "textarea",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 9,
+            "alias": "9_61",
+            "name": "Witness Relation to Bride",
+            "hindi": "दुल्हन के साथ गवाह संबंध",
+            "type": "text",
+            "is_mandatory": "1",
+            "options": []
+        },
+        {
+            "page": 2,
+            "alias": "2_62",
+            "name": "Bastar",
+            "hinid": "बस्तर",
+            "type": "subdropdown-options",
+            "is_mandatory": "1",
+            "options": [
+                "Jagdalpur Municipal Corporation"
+            ],
+            "hindi_options": [
+                "जगदलपुर नगर निगम"
+            ]
+        },
+        {
+            "page": 2,
+            "alias": "2_63",
+            "name": "Bilaspur",
+            "hindi": "बिलासपुर",
+            "type": "subdropdown-options",
+            "is_mandatory": "1",
+            "options": [
+                "Bilaspur Municipal Corporation"
+            ],
+            "hindi_options": [
+                "बिलासपुर नगर निगम"
+            ]
+        },
+        {
+            "page": 2,
+            "alias": "2_64",
+            "name": "Dhamtari",
+            "hindi": "धमतरी",
+            "type": "subdropdown-options",
+            "is_mandatory": "1",
+            "options": [
+                "Dhamtari Municipal Corporation"
+            ],
+            "hindi_options": [
+                "धमतरी नगर निगम"
+            ]
+        },
+        {
+            "page": 2,
+            "alias": "2_65",
+            "name": "Durg",
+            "hindi": "दुर्ग",
+            "type": "subdropdown-options",
+            "is_mandatory": "1",
+            "options": [
+                "Durg Municipal Corporation",
+                "Municipal Corporation Bhilai-Charoda",
+                "Bhilai Municipal Corporation",
+                "Risali Municipal Corporation"
+            ],
+            "hindi_options": [
+                "दुर्ग नगर निगम",
+                "नगर निगम भिलाई-चरौदा",
+                "भिलाई नगर निगम",
+                "रिसाली नगर निगम"
+            ]
+        },
+        {
+            "page": 2,
+            "alias": "2_66",
+            "name": "Korba",
+            "hindi": "कोरबा",
+            "type": "subdropdown-options",
+            "is_mandatory": "1",
+            "options": [
+                "Korba Municipal Corporation"
+            ],
+            "hindi_options": [
+                "कोरबा नगर निगम"
+            ]
+        },
+        {
+            "page": 2,
+            "alias": "2_67",
+            "name": "Korea",
+            "hindi": "कोरिया",
+            "type": "subdropdown-options",
+            "is_mandatory": "1",
+            "options": [
+                "Chirimiri Municipal Corporation"
+            ],
+            "hindi_options": [
+                "चिरिमिरी नगर निगम"
+            ]
+        },
+        {
+            "page": 2,
+            "alias": "2_68",
+            "name": "Raigarh",
+            "hindi": "रायगढ़",
+            "type": "subdropdown-options",
+            "is_mandatory": "1",
+            "options": [
+                "Raigarh Municipal Corporation"
+            ],
+            "hindi_options": [
+                "रायगढ़ नगर निगम"
+            ]
+        },
+        {
+            "page": 2,
+            "alias": "2_69",
+            "name": "Raipur",
+            "hindi": "रायपुर",
+            "type": "subdropdown-options",
+            "is_mandatory": "1",
+            "options": [
+                "Municipal Corporation Birgaon",
+                "Raipur Municipal Corporation"
+            ],
+            "hindi_options": [
+                "नगर निगम बिरगांव ",
+                "रायपुर नगर निगम"
+            ]
+        },
+        {
+            "page": 2,
+            "alias": "2_70",
+            "name": "Rajnandgaon",
+            "hindi": "राजनांदगाव",
+            "type": "subdropdown-options",
+            "is_mandatory": "1",
+            "options": [
+                "Rajnandgaon Municipal Corporation"
+            ],
+            "hindi_options": [
+                "राजनांदगांव नगर निगम"
+            ]
+        },
+        {
+            "page": 2,
+            "alias": "2_71",
+            "name": "Sarguja",
+            "hindi": "सरगुजा",
+            "type": "subdropdown-options",
+            "is_mandatory": "1",
+            "options": [
+                "Ambikapur Municipal Corporation"
+            ],
+            "hindi_options": [
+                "अंबिकापुर नगर निगम"
+            ]
+        }
+    ]
+}
